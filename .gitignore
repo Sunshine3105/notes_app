@@ -171,6 +171,150 @@ jspm_packages/
 .dart_tool/test/
 .dart_tool/version
 
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.bin
+*.deb
+*.rpm
+*.apk
+*.aab
+*.ipa
+
+# Android build files
+*.flat
+*.len
+*.tab
+*.tab_i
+*.at
+*.keystream
+*.r8
+*.mapping
+*.aab
+*.apk
+*.apks
+
+# iOS build files
+*.framework/
+*.xcframework/
+*.dSYM/
+*.app/
+*.ipa
+
+# Flutter build outputs
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# Generated files
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.m
+**/GeneratedPluginRegistrant.swift
+**/generated_plugin_registrant.*
+
+# CMake and Ninja
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+build.ninja
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Coverage
+coverage/
+*.lcov
+
+# Test results
+test-results/
+*.xml
+
+# Web build
+web/build/
+web/packages/
+
+# Windows
+windows/build/
+windows/.packages
+
+# Linux
+linux/build/
+linux/.packages
+
+# macOS
+macos/build/
+macos/.packages
+
+# Documentation
+doc/api/
+
+# Analysis
+analysis_options.yaml.backup
+
+# Local configuration
+local.properties
+
+
 
 # Android
 .android/
