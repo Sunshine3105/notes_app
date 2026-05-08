@@ -1,0 +1,14 @@
+{
+  "git.ignoreLimitWarning": true,
+  "git.autofetch": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/.idea": true,
+    "**/*.class": true,
+    "**/*.jar": true,
+    "**/*.log": true,
+    "**/node_modules": true
+  }
+}
